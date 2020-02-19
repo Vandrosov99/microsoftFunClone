@@ -6,4 +6,5 @@ document.querySelector(".special").addEventListener('click', function (e) {
         menu.style.display = "none";
     }
     e.preventDefault();
+    animate1();
 })
