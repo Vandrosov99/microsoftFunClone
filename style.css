@@ -60,7 +60,7 @@ body {
 .menu-right ul {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .menu-right ul li {
@@ -96,10 +96,6 @@ body {
     position: absolute;
     /* top: 2px; */
 }
-
-/* .special {
-    position: relative;
-} */
 
 .menu-right ul li i {
     color: #706e6e;
