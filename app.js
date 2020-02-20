@@ -1,10 +1,12 @@
+const menu = document.getElementById('#drop')
+console.log(menu)
 document.querySelector(".special").addEventListener('click', function (e) {
-    const menu = document.querySelector('.drop')
+    // menu = document.getElementById('#drop')
     if (menu.style.display === 'none') {
         menu.style.display = "flex";
+        // alert("asdas")
     } else {
         menu.style.display = "none";
     }
     e.preventDefault();
-    animate1();
 })
